@@ -1,0 +1,135 @@
+body {
+     font-family: 'AkzidenzGrotesk';
+   font-weight: 250;
+  text-decoration:none;
+    cursor:url("auge.ico"),pointer;
+    font: 19px 'AkzidenzGroteskCERoman', Helmet, Freesans, sans-serif; background-color: #fff;
+/* prevent Safari from displaying ligatures by default */
+-webkit-font-variant-ligatures: no-common-ligatures;
+}
+
+
+.project {
+  position:center;
+  padding: 30px 10px 10px 30px;
+
+}
+.projectThumb {
+  position:center;
+
+}
+
+a {
+    color: black;
+}
+
+a.selected {
+    background: none repeat scroll 0 0;
+}
+a.visited {
+  opacity:1.0;
+    text-decoration: none;
+}    
+
+
+.projectThumb {
+  width:100%;
+}
+
+.projectFrame {
+  display:block;
+  opacity:0.5;
+  padding:2px
+    cursor:url("hand.ico"),pointer;
+}
+
+.projectTitle {
+    position: absolute;
+    pointer-events:none;
+    z-index: 9;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+
+    opacity: 0;
+    z-index: 99;
+      font-size:14px;
+  line-height:16px;
+  cursor:url("hand.ico"),pointer;
+
+}
+
+
+.projectDate  {
+  position: absolute;
+    pointer-events:none;
+    z-index: 9;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    text-align: center;
+    margin: auto;
+
+    opacity: 0;
+    z-index: 99;
+      font-size:10px;
+  line-height:12px;
+  cursor:url("hand.ico"),pointer;
+}
+
+
+
+   
+.project:hover .projectThumb{
+   display: block;
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+             cursor:url("hand.ico"),pointer;
+}
+
+
+
+.project:hover .projectTitle {
+    opacity: 1;
+    color:#ffffff;
+   display: left;
+        font-size:24px;
+  line-height:26px;
+  cursor:url("hand.ico"),pointer;
+  z-index: 9;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    height: 30px;
+}
+
+.project:hover .projectDate  {
+      opacity: 1;
+    color:#ffffff;
+   display: center;
+        font-size:12px;
+  line-height:14px;
+  cursor:url("hand.ico"),pointer;
+  z-index: 9;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    height: 60px;
+}
+  
+
+
+
+

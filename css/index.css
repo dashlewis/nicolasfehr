@@ -1,0 +1,266 @@
+
+
+/* Colours */
+
+body {
+background-color: #fff;
+
+}
+
+/* Typography */
+
+@font-face {
+font: 19px 'AkzidenzGroteskCERoman', Helmet, Freesans, sans-serif; background-color: #fff;
+/* prevent Safari from displaying ligatures by default */
+-webkit-font-variant-ligatures: no-common-ligatures;
+    
+}
+
+h3 a { color:#000; }
+
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   font-family: 'AkzidenzGroteskCEBlack';
+   font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor:url("../html/blau.ico") ,pointer;
+}
+
+
+a {
+font: 19px 'AkzidenzGroteskCERoman', Helmet, Freesans, sans-serif;
+/* prevent Safari from displaying ligatures by default */
+-webkit-font-variant-ligatures: no-common-ligatures;
+  text-decoration:none;
+}
+
+a:hover {
+ color:#6e6e6e;
+ font-style:bold;
+ cursor:url("../html/hand.ico") ,pointer;
+}
+
+h3 {
+font-weight: bold;
+}
+
+h4 {
+  font-size:10px;
+  font-weight:bold;
+  margin:10px;
+}
+
+h2 {
+  font-size:14px;
+   font-weight:normal;
+   line-height: 8px;
+     margin:10px;
+}
+
+/* Layout */
+
+html { overflow-y: scroll; }
+
+body { margin: 0px 0; min-width: 640px }
+
+img { border: 5px }
+
+#outer-container {
+    margin: 0 auto;
+    text-align: center;
+    cursor:url("../html/blau.ico") ,pointer;
+}
+
+
+.project_thumb:hover .cardimgcrop img {
+    opacity: 1;
+}
+
+#title{
+  position: fixed;
+width:100px
+top: 5px;
+left:10px;
+z-index:1000;
+opacity:0.8;
+  }
+
+ #title :hover {
+opacity:1;
+}
+
+#lottes-links {
+position: fixed;
+top: 10px;
+right:10px;
+opacity:0.5;
+z-index:1000;
+}
+
+#lottes-links:hover {
+top: 10px;
+right:10px;
+opacity:2;
+}
+
+/*
+
+
+
+*/
+
+
+#dates {
+position: fixed;
+bottom: 10px;
+right:10px;
+z-index:1000;
+	opacity:0.4;
+}
+
+#dates:hover {
+bottom: 10px;
+right:10px;
+	opacity:2;
+}
+
+
+#hand {
+    margin: 10px auto;
+ }
+
+#hand:hover {
+  background-image: url('../html/meret4.png');
+    margin: 10px auto;
+
+  }
+
+
+#desc p {
+  margin:10px 10px 10px 10px;
+  width:100%;
+  
+}
+    
+#tags {
+    width: 1120px;
+    display: none;
+    margin:10px 10px 10px 10px;
+    position: fixed;
+    text-align: right;
+    z-index:1000;
+}
+
+
+.tag {
+    color: #000000;
+    font-size: 14px;
+    margin: 10px auto;
+    position:inline;
+}
+
+.compact .tag {
+    color: #000000;
+}
+.tag:hover {
+    cursor:url("../html/hand.ico") ,pointer;
+    z-index:1000;
+}
+
+.nest {
+	display:none;
+}
+
+.nest.parent-is-project {
+  margin:20px auto;
+}
+
+.nest.project-nest{
+      display: block;
+    float: left;
+    margin:10px 0px auto;
+}
+
+.nest .project-tag{
+  float:right;
+  margin: 10px 14px 1px 0px;
+  }
+
+.nestInvis {
+  display:left;
+}
+
+.tagInactive {
+	display:none;
+}
+
+.tagInactive:hover {
+  color: #000000;
+  cursor:url("../html/hand.ico") ,pointer;
+       text-decoration:underline;
+}
+
+#tip {
+	display:none;
+}
+
+.sorting {
+    display:none;
+}
+.sorting a {
+ display:none;
+}
+.sorting a:hover {
+ display:none;
+}
+
+.options {
+ display:none;
+  position:absolute;
+  right:8px;
+  bottom:2px;
+  padding:2px;
+}
+
+#search-field {
+ display:none;
+}
+
+
+#footer {
+    font-size: 8px;
+    text-align:left;
+    width: 100%;
+    margin:10px;
+    letter-spacing: 0.5px;
+}
+
+#footer :hover{
+}
+
+.invis1 {
+  display:none;
+}
+
+
+.alert {
+  padding:20px;
+  margin:0px;
+  position:relative;
+  left:0px;
+  right:0px;
+  background:#ef4313;
+  color:#fff;
+}
+
+

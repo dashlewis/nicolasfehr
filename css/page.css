@@ -1,0 +1,297 @@
+/*
+  Stylesheet for Konsum�sthethik
+  Page Template
+  Copyright (c) 2011 Yiannis Chatzikonstantinou
+  http://yconst.com
+*/
+
+  
+
+body {;
+  line-height: 6.6vw;
+  width: 100%;
+  padding-left: 1%;
+  padding-top: 0.5em;
+     font-family: 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+   font-weight: 250;
+	font-size:100%
+  text-decoration:none;
+    cursor:url("auge.ico"),pointer;
+    font: 19px 'AkzidenzGroteskCERoman', Helmet, Freesans, sans-serif; background-color: #ffcccc;
+/* prevent Safari from displaying ligatures by default */
+-webkit-font-variant-ligatures: no-common-ligatures;
+  margin:0;
+  cursor:url("auge.ico"),pointer;
+}
+
+
+a {
+ cursor:url("auge.ico"),pointer;
+  text-decoration: none;
+	color:#333333;
+}
+
+a:link.nav { color: #70DB93; }
+
+
+a:hover {
+  text-decoration: line-through;
+  border-bottom: 1px 
+}
+
+p {
+  font-size:12px;
+
+}
+
+h2 {
+  font-size:12px;
+    color:#000000;
+  font-weight:normal;
+}
+
+h3 {
+  font-size:24px;
+    color:#000000;
+  font-weight:normal;
+}
+
+h4 {
+  font-size:14px;
+  color:#D49BA9;
+    font-weight:normal;
+}
+
+
+/* Layout */
+
+img { border:00px;
+padding:0em;
+	  max-width: 100%;
+    height: auto;
+}
+
+
+.image, .media {
+  display: center;
+  margin:2.4em 0;
+  width:100%;
+}
+
+.image img, .media object {
+  max-width:100%;
+  height:auto;
+  position:center;
+}
+
+.invis {
+  display:none;
+}
+
+#outer-container {
+  text-align:left;
+  padding:0 20px;
+  margin:0;
+  overflow-x:hidden;
+}
+
+#inner-container {
+  text-align:left;
+  width: expression(document.body.clientWidth > 960? "960px": "auto" ); /* IE6 hack...*/
+  max-width:800px;
+  min-width:400px;
+  margin:0 auto;
+}
+.about {
+  position:fixed; 
+  top: 5px;
+	right: 10px;
+}
+
+.nav {
+
+text-align:right;
+	
+	
+	
+	
+}
+
+
+.topbar {
+  padding: 2.6em 0 0em 0;
+}
+
+.rt {
+  position:fixed;
+  font-size:30px;
+
+    font-weight: thin;
+  width:100%;
+}
+
+.rt .navitem {
+  top:20px;
+  margin:30px 10px 0 0;
+
+
+}
+
+.rt .navitem .shorturllabel {
+  position:relative;
+  display:none;
+  color: #999;
+}
+
+
+
+#title {
+position: fixed;
+top: 0.2em;
+left:1em;
+	opacity:0.2;
+}
+
+#title:hover {
+top: 0.2em;
+left:1em;
+	opacity:8;
+	}
+#title2 {
+position: fixed;
+bottom: 0.2em;
+left:1em;
+	opacity:0.04;
+}
+#title2:hover {
+bottom: 0.2em;
+left:1em;
+	opacity:0.8;
+}
+#description {
+  font-size:12px;
+  margin: 2em 0 2em 0;
+}
+
+
+#dates {
+position: fixed;
+bottom: 1em;
+right:0px;
+z-index:1000;
+	opacity:0.1;
+}
+
+#dates:hover {
+bottom: 1em;
+right:0px;
+	opacity:2;
+}
+
+#dates-2 {
+position: fixed;
+bottom: 1em;
+right:0px;
+z-index:1000;
+	opacity:1;
+}
+
+.double-column {
+  -webkit-column-width:320px;
+  -webkit-column-gap:20px;
+  -moz-column-width:320px;
+  -moz-column-gap:20px;
+  column-width:320px;
+  column-gap:20px;
+}
+
+p {
+  margin:1.34em 0;
+}
+
+pre {
+  background:#FFFFFF;
+  padding:1em;
+}
+
+
+h2#links-title, h2#downloads-title, h2#comments-title, h2#pdfs-title {
+  margin:0.8em 0;
+}
+
+
+#outer-preview-container {
+    color:#000000;
+
+}
+
+#inner-preview-container {
+  max-width:1000px;
+  margin:10px 10px 10px 10px;
+}
+
+
+/** Image Gallery */
+
+div#a-image-wrapper, div#b-image-wrapper { overflow: hidden; width: 100%; margin: 0.4em 0 2.4em 0}
+div#a-image-holder, div#b-image-holder { width: 1000000px; }
+div#a-image-holder div.image, div#b-image-holder div.image { float: left; margin: 0px; padding: 0px; cursor: pointer;}
+.a-gal-nav, .b-gal-nav {
+  display:none;
+  cursor:pointer;
+  margin:0 1.2em 0 0;
+  font-size:12px;
+}
+
+/** Javascript alert */
+
+.alert {
+  text-align:center;
+  padding:20px;
+  margin:0px;
+  position:relative;
+  left:0px;
+  right:0px;
+  background:#ef4313;
+  color:#fff;
+}
+
+/** Sharing panel */
+
+#at15s {
+  width:200px;
+  cursor:default;
+  background:#404040;
+  color:#efefef;
+  font-size:11px;
+  padding:4px 0;
+}
+
+#at15s #at15s_head {
+  display:none;
+}
+
+#at15s .at_item {
+  display: block;
+  color:#fff;
+  cursor:pointer;
+  padding:3px 6px 1px 6px;
+}
+
+.at_item:hover {
+  background:#5090ea;
+}
+
+#at15s .at-settings, #at15s .at_baa, #at15s .at-privacy-close {
+  display:block;
+  background:#ececec;
+  padding:2px 6px 0 6px;
+  font-size:10px;
+  text-decoration:none;
+}
+
+#at15s .at-settings:hover, #at15s .at_baa:hover, #at15s .at-privacy-close:hover {
+  color:#fff;
+  background:#5090ea;
+}.nav {
+}
